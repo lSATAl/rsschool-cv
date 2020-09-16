@@ -2,7 +2,7 @@
 
 ## Контакты (Contacts)
 
-##### tel. +7 950 819 75 96
+##### tel: +7 950 819 75 96
 ##### e-mail: glidrex634@gmail.com
 ##### github: [@lSATAl](https://github.com/lSATAl)
 ##### vk: [Вериялов Александр](https://vk.com/jiectam)
