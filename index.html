@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Veriialov Aleksandr</title>
+</head>
+<body>
+    <div class="divFix">
+      <header class="header">
+        <div>
+        <h1>Вериялов Александр (Veriialov Aleksandr)</h1>
+          <h2>Контакты (Contacts)</h2>
+          <ul>
+            <li>Tel: +7 950 819 75 96</li>
+            <li>E-mail: glidrex634@gmail.com</li>
+            <li>Github: <a href="https://github.com/lSATAl">lSATAl</a></li>
+            <li> VK: <a href="https://vk.com/jiectam">Вериялов Александр</a></li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://sun9-74.userapi.com/bnmyIp_Ryop-mqW3ZnKO3k666rvhntyD-Pq3lw/TiW7ZnvdlTo.jpg" alt="Avatar" height="161" width="176">
+        </div>
+      </header>
+    <main>
+      <div>
+        <h2>Краткая информация о себе (Summary)</h2>
+          <p> Хочу научиться программировать. В 5-6ом классе немного интересовался HTML и Delfi, очень нравилось. <br>
+Как таковой, опыт работы в программировании отсутствует, но люблю изучать что нибудь новенькое.<br>
+Пора осуществить мечту детства и начать программировать.
+        <h2>Навыки (Skills)</h2>
+          <ul>
+            <li>Basic HTML</li>
+            <li>Basic CSS</li>
+            <li>Basic JS</li>
+            <li>Basic Python</li>
+          </ul>
+      </div>
+      <div>
+        <h2>Примеры кода (Code example)</h2>
+        <p>Черепаха рисующая вложенные многоугольники</p>
+        <pre>
+          <code>
+import turtle
+import math
+
+z = 35 # Прирост радиуса
+n = 3 # Число углов
+R = 50 #Радиус окружности
+turtle.shape('turtle')
+
+turtle.speed(2) # скорость
+
+for i in range(8):
+
+	a = 2 * (math.sin(3 / n)) * R
+	b = 360 / n # Угол поворота
+	d = (180 - b) / 2
+
+	print(d)
+	print(b)
+	print(d + b)
+
+	turtle.left(d)
+	for i in range(n):
+		turtle.left(b)
+		turtle.forward(math.fabs(a))
+	f = ((180 * (n - 2)) / n) / 2
+	turtle.left(-f)
+	turtle.color("#ffffff")
+	turtle.forward(z)
+	turtle.color("#000000")
+	n += 1
+	R += z
+          </code>
+        </pre>
+      </div>
+      <div>
+        <h2>Опыт работы (Experience)</h2>
+          <p>Опыт работы в программировании отсутствует.<br>
+            Последние 8 лет работаю инженером электронщиком.</p>
+      </div>
+      <div>
+        <h2>Образование (Education)</h2>
+          <ul>
+            <li>2005-2009 Тольяттинский электротехнический техникум</li>
+            <li>2011-2015 гг. Ижевский государственный технический университет имени М. Т. Калашникова;</li>
+          </ul>
+      </div>
+      <div>
+        <h2>Английский язык (English)</h2>
+        <p>A1 BEGINNER до A2 ELEMENTARY</p>
+      </div>
+    </main>
+</div>
+</body>
+</html>
