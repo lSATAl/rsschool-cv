@@ -19,7 +19,42 @@
  * ##### Basic Python 
 
 ## Примеры кода (Code example)
-#### Отсутствуют.
+##### Черепаха рисующая вложенные многоугольники
+```
+import turtle
+import math
+
+
+z = 35 # Прирост радиуса
+n = 3 # Число углов
+R = 50 #Радиус окружности
+turtle.shape('turtle') #
+
+
+turtle.speed(2) # скорость
+
+for i in range(8):
+	
+	a = 2 * (math.sin(3 / n)) * R
+	b = 360 / n # Угол поворота
+	d = (180 - b) / 2
+	
+	print(d)
+	print(b)
+	print(d + b)
+	
+	turtle.left(d)
+	for i in range(n):
+		turtle.left(b)
+		turtle.forward(math.fabs(a))
+	f = ((180 * (n - 2)) / n) / 2
+	turtle.left(-f)
+	turtle.color("#ffffff")
+	turtle.forward(z)
+	turtle.color("#000000")
+	n += 1
+	R += z
+```
 
 ## Опыт работы (Experience)
 #### Опыт работы в программировании отсутствует.
