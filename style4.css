@@ -68,7 +68,7 @@ width: 176px;
  width: 1600px;
  height: 744px;
  left: 0px;
- background: url(bg-image-wrapper.png) no-repeat center center;
+ background: url(assets/bg-image-wrapper.png) no-repeat center center;
 }
 
 .divInner {
@@ -333,7 +333,7 @@ span {
     width: 1600px;
     height: 524px;
     left: 0px;
-    background: url(5.png) no-repeat center center;
+    background: url(assets/5.png) no-repeat center center;
 }
 .page5TextDiv {
     margin: 0px;
