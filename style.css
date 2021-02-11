@@ -43,3 +43,8 @@ code {
 img {
     padding: 0px 0px 0px 20px;
 }
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: gray;
+}
