@@ -1,0 +1,50 @@
+html {
+    font-size: 8px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.divFix {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+code {
+    background-color: #f0eded;
+    display: inline-block;
+    outline: 1px;
+    width: 500px;
+    border: 1px dotted;
+    padding: 0px 0px 0px 5px;
+    border-radius: 5px;
+}
+
+img {
+    padding: 0px 0px 0px 20px;
+}
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: gray;
+}

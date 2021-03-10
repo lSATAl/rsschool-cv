@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Veriialov Aleksandr</title>
+</head>
+<body>
+    <div class="divFix">
+      <header class="header">
+        <div>
+        <h1>Veriialov Aleksandr (Вериялов Александр)</h1>
+          <h2>Contacts</h2>
+          <nav>
+          <ul>
+            <li>Tel: +7 950 819 75 96</li>
+            <li>E-mail: glidrex634@gmail.com</li>
+            <li>Github: <a href="https://github.com/lSATAl">lSATAl</a></li>
+            <li> VK: <a href="https://vk.com/jiectam">Вериялов Александр</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div>
+          <img src="https://sun9-74.userapi.com/bnmyIp_Ryop-mqW3ZnKO3k666rvhntyD-Pq3lw/TiW7ZnvdlTo.jpg" alt="Avatar" height="161" width="176">
+        </div>
+      </header>
+    <main>
+        <section>
+      <div>
+        <h2>About me</h2>
+          <p> I want to learn how to program. Write bots and AI.</p>
+        <h2>Skills</h2>
+          <ul>
+            <li>Basic HTML;</li>
+            <li>Basic CSS;</li>
+            <li>Basic JS;</li>
+            <li>Basic Python;</li>
+            <li>Basic Figma;</li>
+            <li>Basic Photoshop;</li>
+          </ul>
+      </div>
+      <div>
+        <h2>Code example</h2>
+        <h4>A turtle drawing nested polygons:</h4>
+        <details open="open" >
+            <summary>Code</summary>
+            <pre>
+                <code>
+import turtle
+import math
+
+z = 35 # Прирост радиуса
+n = 3 # Число углов
+R = 50 #Радиус окружности
+turtle.shape('turtle')
+
+turtle.speed(2) # скорость
+
+for i in range(8):
+
+	a = 2 * (math.sin(3 / n)) * R
+	b = 360 / n # Угол поворота
+	d = (180 - b) / 2
+
+	print(d)
+	print(b)
+	print(d + b)
+
+	turtle.left(d)
+	for i in range(n):
+		turtle.left(b)
+		turtle.forward(math.fabs(a))
+	f = ((180 * (n - 2)) / n) / 2
+	turtle.left(-f)
+	turtle.color("#ffffff")
+	turtle.forward(z)
+	turtle.color("#000000")
+	n += 1
+	R += z
+                </code>
+            </pre>
+    </details>
+      </div>
+      <div>
+        <h2>Experience</h2>
+          <p>There is no experience in programming.<br></p>
+      </div>
+      <div>
+        <h2>Education</h2>
+          <ul>
+            <li>2005-2009 Togliatti Electrotechnical Technical School;</li>
+            <li>2011-2015 Kalashnikov Izhevsk State Technical University - Design and Technology of Electronic Equipment (baccalaureate);</li>
+          </ul>
+      </div>
+      <div>
+        <h2>English</h2>
+        <p>A1 BEGINNER до A2 ELEMENTARY</p>
+      </div>
+    </section>
+    </main>
+    <div class="footer" >
+        <p>If you are reading this, it means that you have flipped through this CV to the end, congratulations :)</p>
+    </div>
+</div>
+<footer>
+</footer>
+</body>
+</html>
