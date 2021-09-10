@@ -6,3 +6,14 @@
 ##### e-mail: glidrex634@gmail.com
 ##### github: [@lSATAl](https://github.com/lSATAl)
 ##### vk: [Veriialov Aleksandr ](https://vk.com/jiectam)
+
+## About me 
+##### I want to learn how to program. Write bots and AI.
+ 
+## Skills
+ * ##### HTML;
+ * ##### CSS;
+ * ##### Basic JS;
+ * ##### Basic Python;
+* ##### Basic Figma;
+* ##### Basic Photoshop;
