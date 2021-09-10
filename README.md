@@ -1,1 +1,1 @@
-# https://github-lsatal.github.io/rsschool-cv/cv
+# https://lsatal.github.io/rsschool-cv/cv
