@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Veriialov CV</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_info">
+      <h1>Veriialov Aleksandr (Вериялов Александр)</h1>
+      <h2>Contacts:</h2>
+      <ul>
+        <li>Tel: +7 950 819 75 96;</li>
+        <li>E-mail: glidrex634@gmail.com;</li>
+        <li>Github: <a href="https://github.com/lSATAl">lSATAl</a>;</li>
+        <li>VK: <a href="https://vk.com/jiectam">Вериялов Александр</a>;</li>
+        <li>YouTube: <a
+            href="https://www.youtube.com/watch?v=zJwOYNLQCeM&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%92">My
+            CV</a>;</li>
+      </ul>
+    </div>
+    <div class="header_img">
+      <img src="assets/ylfJ3vU5-z0.jpg" alt="Avatar">
+    </div>
+  </header>
+  <main>
+    <h2>About me:</h2>
+    <span>At school, I was interested in programming. But my parents insisted that I go to study in another field. So I
+      get in Togliatti Electrotechnical technical college in two thousand fifty(2005) and graduated in two thousand
+      nine(2009).
+      Then I continued my studies at the Kalashnikov Izhevsk State Technical University and graduated in two thousand
+      fifteen(2015), at the faculty of Design and Technology of Electronic Equipment.
+      Then I found a job in my specialty. where I am working to this day.
+      But right now I'm not very happy with what I'm doing, so I started studying at the RS school course and I really
+      like it.
+    </span>
+    <a
+      href="https://www.youtube.com/watch?v=zJwOYNLQCeM&ab_channel=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%92">My
+      CV in YouTube</a>
+    <h2>Skills:</h2>
+    <ul>
+      <li>HTML;</li>
+      <li>CSS;</li>
+      <li>Basic JS;</li>
+      <li>Basic Python;</li>
+      <li>Basic Figma;</li>
+      <li>Basic Photoshop;</li>
+    </ul>
+    <h2>Code example:</h2>
+    <details open>
+      <summary>
+        A turtle drawing nested polygons:
+      </summary>
+      <pre>
+        <code>
+import turtle
+import math
+
+z = 35 # Прирост радиуса
+n = 3 # Число углов
+R = 50 #Радиус окружности
+turtle.shape('turtle')
+
+turtle.speed(2) # скорость
+
+for i in range(8):
+
+	a = 2 * (math.sin(3 / n)) * R
+	b = 360 / n # Угол поворота
+	d = (180 - b) / 2
+
+	print(d)
+	print(b)
+	print(d + b)
+
+	turtle.left(d)
+	for i in range(n):
+		turtle.left(b)
+		turtle.forward(math.fabs(a))
+	f = ((180 * (n - 2)) / n) / 2
+	turtle.left(-f)
+	turtle.color("#ffffff")
+	turtle.forward(z)
+	turtle.color("#000000")
+	n += 1
+	R += z
+        </code>
+      </pre>
+    </details>
+
+    <h2>Experience:</h2>
+    <span>There is no experience in programming.</span>
+    <h2>Education:</h2>
+    <ul>
+      <li>2005-2009 Togliatti Electrotechnical Technical School;</li>
+      <li>2011-2015 Kalashnikov Izhevsk State Technical University - Design and Technology of Electronic Equipment
+        (baccalaureate);</li>
+    </ul>
+    <h2>English</h2>
+    <span>A1 BEGINNER до A2 ELEMENTARY</span>
+  </main>
+  <footer>
+    <span>If you are reading this, it means that you have flipped through this CV to the end, congratulations :)</span>
+  </footer>
+</body>
+
+</html>
